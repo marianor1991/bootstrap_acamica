@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="main.css">
+
+  <title>Hello, world!</title>
+</head>
+
+<body>
+  <h1>Lista supermercado</h1>
+  <div class="row">
+    <div class="col-2">
+      <ul id="lista" class="list-group">
+
+      </ul>
+    </div>
+    <div class="col">
+    <input type="text" id="texto" class="form-control" placeholder="Producto" aria-label="Username" aria-describedby="basic-addon1">
+    </div>
+    <div class="col">
+      <button type="button" id="getInputValue" class="btn btn-primary" onclick="capturarElemento()" data-toggle="button" aria-pressed="false" autocomplete="off">
+        Agregar
+      </button>
+      <button type="button" id="getInputSecondValue" class="btn btn-secondary" onclick="eliminarElementos()" data-toggle="button" aria-pressed="false" autocomplete="off">
+        Eliminar Ultimo
+      </button>
+    </div>
+  </div>
+  </div>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
